@@ -99,6 +99,7 @@
 		ACC796DB2BA8C17D00DE7846 /* AKTest-iOS-UIProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				ACC7970E2BA8D07300DE7846 /* ViewModels */,
 				ACC7970D2BA8C20400DE7846 /* SecondScreen */,
 				ACC7970C2BA8C1E800DE7846 /* FirstScreen */,
 				ACC796DC2BA8C17D00DE7846 /* AppDelegate.swift */,
@@ -141,6 +142,13 @@
 			children = (
 			);
 			path = SecondScreen;
+			sourceTree = "<group>";
+		};
+		ACC7970E2BA8D07300DE7846 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
