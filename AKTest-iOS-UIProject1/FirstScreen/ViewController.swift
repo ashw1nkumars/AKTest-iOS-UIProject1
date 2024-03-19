@@ -22,7 +22,8 @@ class ViewController: UIViewController {
     let viewModel: LoginViewModelProtocol
     
     required init?(coder aDecoder: NSCoder) {
-        self.viewModel = LoginViewModel
+        self.viewModel = LoginViewModel()
+        super.init(coder: aDecoder)
     }
     
     override func viewDidLoad() {
