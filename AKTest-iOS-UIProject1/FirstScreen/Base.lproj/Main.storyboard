@@ -94,13 +94,14 @@
                     </view>
                     <navigationItem key="navigationItem" id="PoO-d5-psS"/>
                     <connections>
-                        <outlet property="errorLabel" destination="49y-ew-X32" id="co1-ru-jzi"/>
-                        <outlet property="loginButton" destination="r9s-c7-g6z" id="4eS-wM-ZUP"/>
-                        <outlet property="loginImageView" destination="bfP-F3-0jV" id="O3J-1r-eRh"/>
-                        <outlet property="passwordLabel" destination="mbP-vU-c0K" id="6ye-lq-Ow7"/>
-                        <outlet property="passwordTextbox" destination="tOw-IO-0aX" id="IEb-8Q-z7u"/>
-                        <outlet property="titleLabel1" destination="Phf-qp-PHk" id="6ch-K8-Xti"/>
-                        <outlet property="usernameLabel" destination="eeh-OK-NR4" id="6Wt-qC-wIN"/>
+                        <outlet property="errorLabel" destination="49y-ew-X32" id="PO7-va-Jqk"/>
+                        <outlet property="loginButton" destination="r9s-c7-g6z" id="D9V-1b-z0B"/>
+                        <outlet property="loginImageView" destination="bfP-F3-0jV" id="Tv1-dK-UuF"/>
+                        <outlet property="passwordLabel" destination="mbP-vU-c0K" id="ube-sW-2UR"/>
+                        <outlet property="passwordTextbox" destination="tOw-IO-0aX" id="nve-zY-g33"/>
+                        <outlet property="titleLabel1" destination="Phf-qp-PHk" id="49a-nQ-1bC"/>
+                        <outlet property="usernameLabel" destination="eeh-OK-NR4" id="yKW-k4-2Wg"/>
+                        <outlet property="usernameTextbox" destination="zeY-LN-oIh" id="s9C-6r-PaS"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
