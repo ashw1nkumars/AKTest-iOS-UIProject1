@@ -9,7 +9,7 @@ import Foundation
 
 protocol LoginViewModelProtocol {
     func login(username: String?, password: String?) -> Bool
-        // comment
+        // func resolveSecondScreenViewModel() -> SecondScreenViewModelProtocol
 }
 
 class LoginViewModel: LoginViewModelProtocol {
@@ -21,4 +21,9 @@ class LoginViewModel: LoginViewModelProtocol {
         
         return false
     }
+    
+    //func resolveSecondScreenViewModel() -> SecondScreenViewModelProtocol {
+    //    let viewModel = SecondScreenViewModel()
+    //    return viewModel
+    //}
 }

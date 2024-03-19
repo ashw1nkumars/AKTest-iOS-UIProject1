@@ -50,6 +50,16 @@ class ViewController: UIViewController {
         
         errorLabel.isHidden = true
     }
-
+    
+    @IBAction func buttonClicked(_ sender: UIButton) {
+        let canLogin = viewModel.login(username: usernameTextbox.text, password: passwordTextbox.text)
+        if canLogin {
+            errorLabel.isHidden = canLogin
+            let myViewController = SecondScreenViewController()
+            self.navigationController?.pushViewController(myViewController, animated: true)
+        } else {
+            errorLabel.isHidden = canLogin
+        }
+    }
 }
 
