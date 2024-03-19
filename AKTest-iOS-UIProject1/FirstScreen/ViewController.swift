@@ -19,6 +19,7 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordTextbox: UITextField!
     @IBOutlet weak var loginButton: UIButton!
     @IBOutlet weak var errorLabel: UILabel!
+    
     let viewModel: LoginViewModelProtocol
     
     required init?(coder aDecoder: NSCoder) {
@@ -34,7 +35,7 @@ class ViewController: UIViewController {
     
     func setupUI() {
         titleLabel1.text = "LetsGoToMars"
-        titleLabel1.font = UIFont(name: "Futura-Condensed ExtraBold", size: 25.0)
+        titleLabel1.font = UIFont(name: "Custom-Futura-Condensed ExtraBold", size: 25.0)
         loginImageView.image = UIImage(named: "Alien")
         
         usernameLabel.text = "Username"
