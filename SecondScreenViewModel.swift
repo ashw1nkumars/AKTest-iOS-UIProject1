@@ -7,18 +7,18 @@
 
 import Foundation
 
-protocol SecondScreenViewModelProtocol {
-    func login(username: String?, password: String?) -> Bool
+// protocol SecondScreenViewModelProtocol {
+//     func login(username: String?, password: String?) -> Bool
         // comment
-}
+// }
 
-class SecondScreenViewModel: LoginViewModelProtocol {
-    func login(username: String?, password: String?) -> Bool {
-        guard let username = username else { return false }
-        guard let password = password else { return false }
-        
-        if username == "ashwin" && password == "ashwin" { return true }
-        
-        return false
-    }
-}
+// class SecondScreenViewModel: SecondScreenViewModelProtocol {
+//     func login(username: String?, password: String?) -> Bool {
+//         guard let username = username else { return false }
+//         guard let password = password else { return false }
+//
+//         if username == "ashwin" && password == "ashwin" { return true }
+//
+//        return false
+//    }
+// }

@@ -13,6 +13,12 @@
 		ACBDA9232BAA190D00D5A841 /* SecondScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA9222BAA190D00D5A841 /* SecondScreenViewModel.swift */; };
 		ACBDA9242BAA190D00D5A841 /* SecondScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA9222BAA190D00D5A841 /* SecondScreenViewModel.swift */; };
 		ACBDA9252BAA190D00D5A841 /* SecondScreenViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA9222BAA190D00D5A841 /* SecondScreenViewModel.swift */; };
+		ACBDA93D2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA93B2BAA257F00D5A841 /* SecondScreenViewController.swift */; };
+		ACBDA93E2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA93B2BAA257F00D5A841 /* SecondScreenViewController.swift */; };
+		ACBDA93F2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACBDA93B2BAA257F00D5A841 /* SecondScreenViewController.swift */; };
+		ACBDA9402BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBDA93C2BAA257F00D5A841 /* SecondScreenViewController.xib */; };
+		ACBDA9412BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBDA93C2BAA257F00D5A841 /* SecondScreenViewController.xib */; };
+		ACBDA9422BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = ACBDA93C2BAA257F00D5A841 /* SecondScreenViewController.xib */; };
 		ACC796DD2BA8C17D00DE7846 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC796DC2BA8C17D00DE7846 /* AppDelegate.swift */; };
 		ACC796DF2BA8C17D00DE7846 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC796DE2BA8C17D00DE7846 /* SceneDelegate.swift */; };
 		ACC796E12BA8C17D00DE7846 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACC796E02BA8C17D00DE7846 /* ViewController.swift */; };
@@ -44,6 +50,8 @@
 /* Begin PBXFileReference section */
 		ACBDA91E2BAA18F200D5A841 /* LoginViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewModel.swift; sourceTree = SOURCE_ROOT; };
 		ACBDA9222BAA190D00D5A841 /* SecondScreenViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewModel.swift; sourceTree = SOURCE_ROOT; };
+		ACBDA93B2BAA257F00D5A841 /* SecondScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondScreenViewController.swift; sourceTree = "<group>"; };
+		ACBDA93C2BAA257F00D5A841 /* SecondScreenViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SecondScreenViewController.xib; sourceTree = "<group>"; };
 		ACC796D92BA8C17D00DE7846 /* AKTest-iOS-UIProject1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AKTest-iOS-UIProject1.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACC796DC2BA8C17D00DE7846 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ACC796DE2BA8C17D00DE7846 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -84,6 +92,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		ACBDA93A2BAA256900D5A841 /* SecondScreen */ = {
+			isa = PBXGroup;
+			children = (
+				ACBDA93B2BAA257F00D5A841 /* SecondScreenViewController.swift */,
+				ACBDA93C2BAA257F00D5A841 /* SecondScreenViewController.xib */,
+			);
+			path = SecondScreen;
+			sourceTree = "<group>";
+		};
 		ACC796D02BA8C17C00DE7846 = {
 			isa = PBXGroup;
 			children = (
@@ -107,8 +124,8 @@
 		ACC796DB2BA8C17D00DE7846 /* AKTest-iOS-UIProject1 */ = {
 			isa = PBXGroup;
 			children = (
+				ACBDA93A2BAA256900D5A841 /* SecondScreen */,
 				ACC7970E2BA8D07300DE7846 /* ViewModels */,
-				ACC7970D2BA8C20400DE7846 /* SecondScreen */,
 				ACC7970C2BA8C1E800DE7846 /* FirstScreen */,
 				ACC796DC2BA8C17D00DE7846 /* AppDelegate.swift */,
 				ACC796DE2BA8C17D00DE7846 /* SceneDelegate.swift */,
@@ -143,13 +160,6 @@
 				ACC796E22BA8C17D00DE7846 /* Main.storyboard */,
 			);
 			path = FirstScreen;
-			sourceTree = "<group>";
-		};
-		ACC7970D2BA8C20400DE7846 /* SecondScreen */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = SecondScreen;
 			sourceTree = "<group>";
 		};
 		ACC7970E2BA8D07300DE7846 /* ViewModels */ = {
@@ -267,6 +277,7 @@
 			files = (
 				ACC796E92BA8C17E00DE7846 /* LaunchScreen.storyboard in Resources */,
 				ACC796E62BA8C17E00DE7846 /* Assets.xcassets in Resources */,
+				ACBDA9402BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */,
 				ACC796E42BA8C17D00DE7846 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -275,6 +286,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBDA9412BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +294,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBDA9422BAA257F00D5A841 /* SecondScreenViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +305,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBDA93D2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */,
 				ACC796E12BA8C17D00DE7846 /* ViewController.swift in Sources */,
 				ACC796DD2BA8C17D00DE7846 /* AppDelegate.swift in Sources */,
 				ACBDA91F2BAA18F200D5A841 /* LoginViewModel.swift in Sources */,
@@ -304,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACBDA93E2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */,
 				ACC796F42BA8C17E00DE7846 /* AKTest_iOS_UIProject1Tests.swift in Sources */,
 				ACBDA9202BAA18F200D5A841 /* LoginViewModel.swift in Sources */,
 				ACBDA9242BAA190D00D5A841 /* SecondScreenViewModel.swift in Sources */,
@@ -315,6 +330,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACBDA9212BAA18F200D5A841 /* LoginViewModel.swift in Sources */,
+				ACBDA93F2BAA257F00D5A841 /* SecondScreenViewController.swift in Sources */,
 				ACC797002BA8C17E00DE7846 /* AKTest_iOS_UIProject1UITestsLaunchTests.swift in Sources */,
 				ACBDA9252BAA190D00D5A841 /* SecondScreenViewModel.swift in Sources */,
 				ACC796FE2BA8C17E00DE7846 /* AKTest_iOS_UIProject1UITests.swift in Sources */,
