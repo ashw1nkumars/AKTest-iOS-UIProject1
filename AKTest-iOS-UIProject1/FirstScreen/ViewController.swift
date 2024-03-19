@@ -16,7 +16,15 @@ class ViewController: UIViewController {
     @IBOutlet weak var passwordLabel: UILabel!
     @IBOutlet weak var passwordTextbox: UITextField!
     @IBOutlet weak var loginButton: UIButton!
-    @IBOutlet weak var errorLabel: UILabel!
+    @IBOutlet weak var errorLabel: 
+    UILabel!
+    
+    let viewModel: LoginViewModelProtocol
+    
+    required init?(coder aDecoder: NSCoder) {
+        self.viewModel = LoginViewModel
+    }
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
@@ -25,7 +33,7 @@ class ViewController: UIViewController {
     
     func setupUI() {
         titleLabel1.text = "LetsGoToMars"
-        titleLabel1.font = UIFont(name: "Futura", style:"Condensed ExtraBold", size: 25.0)
+        titleLabel1.font = UIFont(name: "Futura-Condensed ExtraBold", size: 25.0)
         loginImageView.image = UIImage(named: "Alien")
         
         usernameLabel.text = "Username"
@@ -33,7 +41,7 @@ class ViewController: UIViewController {
         usernameTextbox.placeholder = "Enter Username"
         
         passwordLabel.text = "Password"
-        passwordLabel.font = UIFont(name: "Helvetica=Bold", size: 14.0)
+        passwordLabel.font = UIFont(name: "Helvetica-Bold", size: 14.0)
         passwordTextbox.placeholder = "Enter Password"
         
         loginButton.setTitle("Login".uppercased(), for: .normal)
