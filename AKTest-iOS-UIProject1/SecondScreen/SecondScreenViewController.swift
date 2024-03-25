@@ -11,11 +11,26 @@ class SecondScreenViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let appearance = UINavigationBarAppearance()
+        appearance.backgroundColor = .black
+        appearance.titleTextAttributes = [NSAttributedString.Key.foregroundColor: UIColor.white]
+        
+        navigationController?.navigationBar.standardAppearance = appearance
+        navigationController?.navigationBar.scrollEdgeAppearance = appearance
+        
+        navigationController?.navigationBar.isTranslucent = false
+        title = "Homescreen"
+        
+        // setupTableView()
 
         // Do any additional setup after loading the view.
     }
-
-
+    
+    override func viewWillAppear(_ animated: Bool) {
+        navigationItem.setHidesBackButton(true, animated: false)
+    }
+    override func viewDidAppear(_ animated: Bool) {}
+    
     /*
     // MARK: - Navigation
 
@@ -25,5 +40,7 @@ class SecondScreenViewController: UIViewController {
         // Pass the selected object to the new view controller.
     }
     */
+    
+    extension SecondScreenViewController: UITableViewDelegate, UITableViewDataSource
 
 }
